@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(https://th.bing.com/th/id/R.f6c4516c11809f1b3550e0c68abfef89?rik=%2fYnuOimiNZdv8Q&riu=http%3a%2f%2fwww.slateman.net%2fimages%2fgaming%2fbackgrounds%2fmvc-stage9-level1.gif&ehk=gyiOYLHNQVrCSKLL0bw50Bb2Ue%2b%2fyVhYYtMvm2WN940%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1);
+    background-position: 90%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15vh;
+    height: 70vh;
+    
+}
+
+div{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ bottom: 500vh;
+
+}
+
+
+
+div span {
+    animation: Iniciando .900s infinite linear;
+}
+
+.cat{
+    position: absolute;
+    transform: scaleX(-1);
+    width: 100px;
+    bottom: 2%;
+    animation: Gato 15s infinite linear;
+}
+
+.ryu{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    left: 45%;
+    bottom: 1%;
+}
+
+
+.titulo{
+    position: absolute;
+    position:absolute;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Tilt Prism', cursive;
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#golpe1{
+    background-color: rgb(57, 190, 243);
+    border-radius: 20px;
+    margin-bottom: 300px;
+    position: absolute;
+    padding: 10px;
+    bottom: 13%;
+    left: 45%;
+
+}
+#golpe2{
+    background-color: rgb(240, 64, 64);
+    border-radius: 20px;
+    margin-bottom: 300px;
+    position: absolute;
+    padding: 10px;
+    bottom: 7%;
+    left: 45%;
+}
+#poseS{
+    background-color: rgb(13, 115, 199);
+    border-radius: 20px;
+    margin-bottom: 300px;
+    position: absolute;
+    padding: 10px;
+    bottom: 1%;
+    left: 45%;
+}
+
+
+@keyframes Iniciando {
+    from{
+        opacity: 1;
+        
+    }
+    to{
+        opacity: 0;
+       
+    }
+}
+
+@keyframes Gato {
+    0%{
+        left: 0vh;
+    }
+    100%{
+       
+        left: 200vh;
+    }
+}
